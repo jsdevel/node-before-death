@@ -9,7 +9,7 @@
 * `SIGINT`
 * `SIGTERM`
 
-Callbacks are never called more than once.
+Registered callbacks are never called more than once.
 
 ##Example
 
