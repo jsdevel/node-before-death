@@ -1,4 +1,4 @@
-# before-death [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
+# before-death [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
 > Do something before the death of a process.
 
 `before-death` registers a callback for the following events:
@@ -53,6 +53,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ``````
+
+<!--
+ [![Coveralls Status][coveralls-image]][coveralls-url]
+-->
 
 [downloads-image]: http://img.shields.io/npm/dm/before-death.svg
 [npm-url]: https://npmjs.org/package/before-death
