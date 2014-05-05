@@ -4,7 +4,7 @@
 `before-death` registers a callback for the following events:
 
 * `exit`
-* `uncaughtException
+* `uncaughtException`
 * `SIGHUP`
 * `SIGINT`
 * `SIGTERM`
