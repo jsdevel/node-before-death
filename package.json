@@ -1,0 +1,33 @@
+{
+  "name": "before-death",
+  "main": "lib/before-death.js",
+  "version": "0.0.0",
+  "description": "Do something before the death of a process.",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "jshint": "jshint lib && jshint --config .jshintrc-test test",
+    "mocha": "mocha -w",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "report": "istanbul report cobertura",
+    "test": "npm run jshint && npm run cover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-before-death.git"
+  },
+  "keywords": [],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-before-death/issues"
+  },
+  "devDependencies": {
+    "should": "~3.3.1",
+    "jshint": "~2.5.0",
+    "mocha": "~1.18.2",
+    "istanbul": "~0.2.8"
+  },
+  "dependencies": {
+    "once": "~1.3.0"
+  }
+}
